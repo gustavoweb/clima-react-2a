@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { CloudSunRain, MapPinned } from 'lucide-react';
+import { CloudSunRain, MapPinned, Thermometer, Droplet, Wind } from 'lucide-react';
 
 function App() {
 
@@ -47,13 +47,37 @@ function App() {
             <div className="detalhes-box">
               <div className="detal-item">
                 <div className="detal-icone">
-                  ICONE
+                  <Thermometer />
                 </div>
                 <p className="detal-desc">
                   Min/Max
                 </p>
                 <p className="detal-valor">
                   25ºC/28ºC
+                </p>
+              </div>
+
+              <div className="detal-item">
+                <div className="detal-icone">
+                  <Droplet />
+                </div>
+                <p className="detal-desc">
+                  Umidade
+                </p>
+                <p className="detal-valor">
+                  20%
+                </p>
+              </div>
+
+              <div className="detal-item">
+                <div className="detal-icone">
+                  <Wind />
+                </div>
+                <p className="detal-desc">
+                  Vento
+                </p>
+                <p className="detal-valor">
+                  12 km/h
                 </p>
               </div>
             </div>
