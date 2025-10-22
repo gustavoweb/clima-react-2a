@@ -34,8 +34,31 @@ function App() {
             </div>
 
             {/* Temperatura Principal */}
-            
-          </div>
+            <div className="temperatura-box">
+              <div className="temperatura-valor">
+                28ºC
+              </div>
+              <div className="sens-termica">
+                31ºC
+              </div>
+            </div>
+
+            {/* Informações Adicionais */}
+            <div className="detalhes-box">
+              <div className="detal-item">
+                <div className="detal-icone">
+                  ICONE
+                </div>
+                <p className="detal-desc">
+                  Min/Max
+                </p>
+                <p className="detal-valor">
+                  25ºC/28ºC
+                </p>
+              </div>
+            </div>
+
+          </div>{/* Fecha Resultado */}
 
         </div>
       </div>
